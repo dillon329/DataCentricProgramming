@@ -1,7 +1,7 @@
 import pandas as pd
 import py5
 
-df = pd.read_csv("data/HabHYG15ly.csv", encoding="latin-1")
+df = pd.read_csv("HabHYG15ly.csv", encoding="latin-1")
 
 dist = df['Distance'][1]
 display_name = df['Display Name'][1]
